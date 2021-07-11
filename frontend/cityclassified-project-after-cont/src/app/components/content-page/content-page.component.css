@@ -1,0 +1,219 @@
+::placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    padding: 10px;
+}
+
+.search {
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid chocolate;
+}
+
+input.search:focus {
+    outline: none;
+    border-color: chocolate;
+}
+
+label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    color: chocolate;
+}
+
+i.custom-search {
+    color: white;
+}
+
+button.search {
+    background-color: chocolate;
+    border: 2px solid brown;
+    padding: 5px 12px 5px 12px;
+}
+
+button.search:hover {
+    cursor: pointer;
+}
+
+button.search:disabled{
+    background-color: lightgray;
+}
+
+button.btn {
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Tommy', sans-serif;
+    border: 3px solid chocolate;
+    border-radius: 25px;
+    background-color: white;
+    color: chocolate;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nav-bar {
+    padding: 20px;
+    background-color: white;
+}
+
+.title-name {
+    letter-spacing: 1.2px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2em;
+    color: chocolate;
+    border-bottom: solid chocolate;
+    margin-right: 30px;
+}
+
+.custom-select {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+    background: white;
+    outline: none;
+    color: chocolate;
+    border: 2px solid chocolate;
+}
+
+table.nav-bar {
+    margin: auto;
+    position: fixed;
+}
+
+.change-city{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.dummy {
+    height: 140px;
+}
+
+.my-post-btn {
+    padding-left: 30px;
+    margin: auto;
+}
+
+table.city-info {
+    margin: auto;
+    width: 50%;
+    padding-right: 0%;
+    border-collapse: collapse;
+    border: 8px solid #DEB887;
+    font-family: 'Apollo', sans-serif;
+    letter-spacing: 1.2px;
+    color: brown;
+    font-size: 1.1em;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+table.city-info>tr>td {
+    padding: 12px;
+    padding-right: 10px;
+    padding-left: 30px;
+    
+}
+
+table.city-info :hover{
+    transform: scale(1.01);
+}
+
+table.city-info>tr:nth-child(even) {
+    background-color: #DEB887;
+    color: white;
+}
+
+table.type-options {
+    padding: 20px;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+table.type-options>tr>td {
+    padding: 20px;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    width: 20px;
+}
+
+label{
+    font-family: 'Tommy Light', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+
+table.admin-classifieds, table.city-classifieds {
+    margin: auto;
+    width: 50%;
+    padding-right: 0%;
+    border-collapse: collapse;
+    border: 8px solid #DEB887;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.2px;
+    color: brown;
+    font-size: 1.1em;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+i.fas{
+    position: absolute;
+    color: #FFC42E;
+    font-size: 25px;
+    padding: 5px;
+}
+
+table.admin-classifieds>tr>td, table.city-classifieds>tr>td {
+    padding: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+table.admin-classifieds :hover, table.city-classifieds :hover {
+    transform: scale(1.01);
+}
+
+table.admin-classifieds>tr:nth-child(odd) {
+    background-color: #DEB887;
+    color: white;
+}
+
+table.city-classifieds>tr:nth-child(even) {
+    background-color: #DEB887;
+    color: white;
+}
+
+.error-msg{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 30px;
+    padding-top: 70px;
+}
+
+.not-found-msg{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-weight: bold;
+    font-size: 3em;
+    padding: 30px;
+    padding-top: 70px;
+}
